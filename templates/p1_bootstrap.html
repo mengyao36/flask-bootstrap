@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.css') }}"> 
+    </head>
+
+
+    <body>
+
+        <h1> Welcome to Your Patient Portal</h1>
+
+        <p> Please select the date below to make your appointmnet</p>
+
+        <button class="btn btn-secondary"> Sep 1 - Monday </button> 
+        <button class="btn btn-secondary"> Sep 2 - Tuesday </button> 
+        <button class="btn btn-secondary"> Sep 3 - Wednesday </button> 
+
+        <p> Please select the location for your appointmnet</p>
+        
+        <!-- Insert Card Component -->
+        <div class="row">
+
+        <!-- Card 1 -->
+        <div class="col-sm-6">
+            <div class="card">
+                <img src="https://www.citypng.com/public/uploads/preview/-11589321671kioolgk5s0.png" class="card-img-top" alt="Hospital A">
+                <div class="card-body">
+                    <h5 class="card-title">Hospital A</h5>
+                    <p class="card-text">Address: 0000 Whatever Ave, Whatever City, WE 00000</p>
+                    <p class="card-text">Contact: 000-000-0000</p>
+                    <a href="#" class="btn btn-primary">Go to Google Map</a>
+                </div>
+            </div> 
+        </div>
+        <!-- Card 2 -->
+        <div class="col-sm-6">
+            <div class="card">
+                <img src="https://previews.123rf.com/images/skathi/skathi1806/skathi180600122/104010190-vector-cartoon-style-illustration-of-man-and-woman-doctor-background-with-hospital-and-emergency-car.jpg?fj=1" class="card-img-top" alt="Hospital B">
+                <div class="card-body">
+                    <h5 class="card-title">Hospital B</h5>
+                    <p class="card-text">Address: 0000 Whatever Ave, Whatever City, WE 00000</p>
+                    <p class="card-text">Contact: 000-000-0000</p>
+                    <a href="#" class="btn btn-primary">Go to Google Map</a>
+                </div>
+            </div> 
+        </div>
+
+        <h4> Take a Look at Your Prescribed Medications</h4>
+
+        <!-- Insert Accordion Component -->
+        <div class="accordion" id="accordionExample">
+
+            <!-- Add Accordin 1 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Medication 1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Medication 1</strong> This is the description of medication 1. Bluh bluh bluh Bluh bluh bluh Bluh bluh bluh Bluh bluh bluh Bluh bluh bluh Bluh bluh bluh Bluh bluh bluh Bluh bluh bluh Bluh bluh bluh. Ahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh. 
+                </div>
+              </div>
+            </div>
+            <!-- Add Accordin 2 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Medication 2
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Medication 2</strong> This is the description of medication 2. Bluh bluh bluh Bluh bluh bluh Bluh bluh bluh Bluh bluh bluh Bluh bluh bluh Bluh bluh bluh Bluh bluh bluh Bluh bluh bluh Bluh bluh bluh. Ahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh. 
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+    </body>
+
+  
+    
+</html>
